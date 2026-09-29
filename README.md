@@ -178,7 +178,7 @@ sachithra = {
 <div align="center">
 
 <img
-  src="https://raw.githubusercontent.com/Sachithra-oshadha/Sachithra-oshadha/output/github-contribution-grid-snake-dark.svg"
+  src="https://raw.githubusercontent.com/Sachithra-oshadha/Sachithra-oshadha/gh-pages/github-contribution-grid-snake-dark.svg"
   alt="GitHub Contribution Snake"
 />
 
