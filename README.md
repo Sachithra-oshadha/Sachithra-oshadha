@@ -379,7 +379,7 @@ I'm interested in opportunities involving
 
 <br/>
 
-<a href="YOUR_LINKEDIN_URL">
+<a href="https://www.linkedin.com/in/sachithra-oshadha/">
   <img
     src="https://img.shields.io/badge/LinkedIn-Sachithra%20Oshadha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
     alt="LinkedIn"
