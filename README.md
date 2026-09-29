@@ -1,6 +1,6 @@
-<!-- ========================= -->
-<!--       PROFILE HEADER      -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                     PROFILE HEADER                     -->
+<!-- ====================================================== -->
 
 <div align="center">
 
@@ -22,22 +22,13 @@
   />
 </a>
 
-&nbsp;
-
-<a href="YOUR_PORTFOLIO_URL">
-  <img
-    src="https://img.shields.io/badge/Portfolio-Visit-111111?style=for-the-badge&logo=vercel&logoColor=white"
-    alt="Portfolio"
-  />
-</a>
-
 </div>
 
 ---
 
-<!-- ========================= -->
-<!--         ABOUT ME          -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                       ABOUT ME                         -->
+<!-- ====================================================== -->
 
 ## 👨‍💻 About Me
 
@@ -67,15 +58,15 @@ sachithra = {
 - 🎓 Computer Engineering graduate from the **University of Jaffna**
 - 💻 Experience building **backend systems, REST APIs and web applications**
 - 📊 Worked with **ETL pipelines, databases and time-series data**
-- 🤖 Built solutions involving **machine learning, forecasting and computer vision**
+- 🤖 Built solutions involving **machine learning, forecasting, RAG and computer vision**
 - ☁️ Experience with **AWS, Docker and cloud-based data workflows**
 - 🌱 Currently expanding my knowledge in **Data Engineering, MLOps and AI systems**
 
 ---
 
-<!-- ========================= -->
-<!--        TECH STACK         -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                      TECH STACK                        -->
+<!-- ====================================================== -->
 
 ## 🛠️ Tech Stack
 
@@ -105,7 +96,7 @@ sachithra = {
 ### 🗄️ Databases
 
 <img
-  src="https://skillicons.dev/icons?i=postgres,mysql,redis&theme=dark"
+  src="https://skillicons.dev/icons?i=postgres,mysql,redis,mongodb&theme=dark"
   alt="Databases"
 />
 
@@ -127,8 +118,30 @@ sachithra = {
 />
 
 <img
+  src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"
+  alt="PyTorch"
+/>
+
+<img
   src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"
   alt="Power BI"
+/>
+
+### 🤖 AI & LLM
+
+<img
+  src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"
+  alt="LangChain"
+/>
+
+<img
+  src="https://img.shields.io/badge/RAG-58A6FF?style=for-the-badge"
+  alt="RAG"
+/>
+
+<img
+  src="https://img.shields.io/badge/FAISS-Vector%20Search-6C63FF?style=for-the-badge"
+  alt="FAISS"
 />
 
 ### ☁️ Cloud & DevOps
@@ -142,9 +155,9 @@ sachithra = {
 
 ---
 
-<!-- ========================= -->
-<!--     FEATURED PROJECTS     -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                    FEATURED PROJECTS                   -->
+<!-- ====================================================== -->
 
 ## 🚀 Featured Projects
 
@@ -154,52 +167,57 @@ sachithra = {
 
 <td width="50%" valign="top">
 
-### ⚡ [Load Forecasting & Data Engineering](https://github.com/Sachithra-oshadha/LOAD-FORECASTING-REPO)
+### 🤖 [Web Document Q&A Bot — RAG](https://github.com/Sachithra-oshadha/RAG_demo)
 
-Machine-learning pipeline for forecasting electricity demand using **15-minute customer-level energy data**.
+A conversational research assistant that can load multiple **web pages, PDFs and text files** and answer questions across them using a Retrieval-Augmented Generation pipeline.
 
 #### ✨ Highlights
 
-- ETL and data preprocessing pipelines
-- Time-series load forecasting
+- Multi-format document ingestion
+- FAISS vector indexing
+- MMR-based retrieval
+- Multi-source question answering
+- Conversational memory
+- Confidence scoring
+- Source-aware responses
+- Streamlit chat interface
+
+#### 🛠️ Tech
+
+`Python` `LangChain` `FAISS` `Groq` `Ollama` `Streamlit`
+
+<br/>
+
+<a href="https://github.com/Sachithra-oshadha/RAG_demo">
+  <b>View Repository →</b>
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 📊 [Energy Data ELT & Forecasting Pipeline](https://github.com/Sachithra-oshadha/ELT_test)
+
+A data engineering and machine-learning pipeline for processing **smart-meter energy data** and generating customer-level electricity consumption forecasts.
+
+#### ✨ Highlights
+
+- CSV and Excel data ingestion
+- AWS S3 integration
+- Data validation and preprocessing
+- Customer-level energy processing
+- Time-series forecasting
 - Automated model training
-- REST prediction API
-- Database integration
-- Customer-level predictions
+- Prediction storage
+- Forecast visualization
 
 #### 🛠️ Tech
 
-`Python` `FastAPI` `SQL` `ETL` `Machine Learning`
+`Python` `AWS S3` `SQL` `ETL` `PyTorch` `Time Series`
 
 <br/>
 
-<a href="https://github.com/Sachithra-oshadha/LOAD-FORECASTING-REPO">
-  <b>View Repository →</b>
-</a>
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🔍 [Fabric Defect Detection](https://github.com/Sachithra-oshadha/FABRIC-DEFECT-DETECTION-REPO)
-
-Computer-vision system for automatically detecting **holes, snags and stains** in fabric.
-
-#### ✨ Highlights
-
-- YOLO-based object detection
-- Dataset preprocessing
-- Model training and evaluation
-- Defect localization
-- Detection visualization
-
-#### 🛠️ Tech
-
-`Python` `YOLOv8` `YOLOv9` `Computer Vision`
-
-<br/>
-
-<a href="https://github.com/Sachithra-oshadha/FABRIC-DEFECT-DETECTION-REPO">
+<a href="https://github.com/Sachithra-oshadha/ELT_test">
   <b>View Repository →</b>
 </a>
 
@@ -211,26 +229,26 @@ Computer-vision system for automatically detecting **holes, snags and stains** i
 
 <td width="50%" valign="top">
 
-### 🐍 [Online Python Compiler](https://github.com/Sachithra-oshadha/ONLINE-PYTHON-COMPILER-REPO)
+### 🔍 [Fabric Defect Detection](https://github.com/Sachithra-oshadha/Fabric-Defect-Detection)
 
-Browser-based Python execution platform using **isolated Docker containers** for secure code execution.
+A computer-vision research project focused on improving **YOLOv8-based defect detection** for complex patterned fabrics.
 
 #### ✨ Highlights
 
-- Python code execution
-- Docker sandboxing
-- CPU and memory restrictions
-- Network isolation
-- REST API
-- Execution monitoring
+- Fabric defect detection
+- YOLOv8 architecture
+- Detection head improvements
+- Backbone experimentation
+- Object detection training
+- Model evaluation
 
 #### 🛠️ Tech
 
-`Python` `FastAPI` `Docker` `React`
+`Python` `YOLOv8` `Deep Learning` `Computer Vision`
 
 <br/>
 
-<a href="https://github.com/Sachithra-oshadha/ONLINE-PYTHON-COMPILER-REPO">
+<a href="https://github.com/Sachithra-oshadha/Fabric-Defect-Detection">
   <b>View Repository →</b>
 </a>
 
@@ -238,52 +256,30 @@ Browser-based Python execution platform using **isolated Docker containers** for
 
 <td width="50%" valign="top">
 
-### 🎓 [Exam Registration System](https://github.com/Sachithra-oshadha/EXAM-REGISTRATION-SYSTEM-REPO)
+### 🐍 [Sandboxed Python Compiler](https://github.com/Sachithra-oshadha/sandboxed-python-compiler)
 
-Full-stack examination registration platform designed for **university students and academic staff**.
-
-#### ✨ Highlights
-
-- Student exam registration
-- Course management
-- Approval workflows
-- Payment management
-- Role-based authorization
-- Academic administration
-
-#### 🛠️ Tech
-
-`.NET Blazor` `C#` `MySQL`
-
-<br/>
-
-<a href="https://github.com/Sachithra-oshadha/EXAM-REGISTRATION-SYSTEM-REPO">
-  <b>View Repository →</b>
-</a>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td colspan="2" align="center" valign="top">
-
-### 🔐 [Privacy Dashboard](https://github.com/Sachithra-oshadha/PRIVACY-DASHBOARD-REPO)
-
-Privacy management dashboard designed to help users understand and manage their digital privacy.
+A browser-based Python execution platform that safely runs untrusted code inside **temporary, resource-limited Docker containers** with real-time execution monitoring.
 
 #### ✨ Highlights
 
-Connected services • Privacy scoring • Data management • Authentication • GDPR-focused controls
+- Monaco browser code editor
+- FastAPI execution API
+- Unique execution IDs
+- Real-time status polling
+- Output and error reporting
+- Execution-time tracking
+- CPU and memory limits
+- No network access
+- Automatic container cleanup
+- Timeout / infinite-loop protection
 
 #### 🛠️ Tech
 
-`React` `Node.js` `PostgreSQL` `JWT`
+`Python` `FastAPI` `Docker` `Monaco Editor` `REST API`
 
 <br/>
 
-<a href="https://github.com/Sachithra-oshadha/PRIVACY-DASHBOARD-REPO">
+<a href="https://github.com/Sachithra-oshadha/sandboxed-python-compiler">
   <b>View Repository →</b>
 </a>
 
@@ -293,11 +289,19 @@ Connected services • Privacy scoring • Data management • Authentication �
 
 </table>
 
+<div align="center">
+
+### 🔗 Explore More
+
+These projects cover my work across **AI, Data Engineering, Machine Learning, Backend Engineering and Secure Systems**.
+
+</div>
+
 ---
 
-<!-- ========================= -->
-<!--    CONTRIBUTION SNAKE     -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                 CONTRIBUTION ACTIVITY                  -->
+<!-- ====================================================== -->
 
 ## 🐍 Contribution Activity
 
@@ -312,9 +316,9 @@ Connected services • Privacy scoring • Data management • Authentication �
 
 ---
 
-<!-- ========================= -->
-<!--       CURRENT FOCUS       -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                     CURRENT FOCUS                      -->
+<!-- ====================================================== -->
 
 ## 🎯 Current Focus
 
@@ -337,39 +341,33 @@ to turn raw data into **reliable, scalable and useful applications**.
 
 ---
 
-<!-- ========================= -->
-<!--        INTERESTS          -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                   AREAS OF INTEREST                    -->
+<!-- ====================================================== -->
 
 ## 💡 Areas of Interest
 
 <div align="center">
 
-`Data Engineering`
-&nbsp;&nbsp;
-`Backend Engineering`
-&nbsp;&nbsp;
-`MLOps`
-&nbsp;&nbsp;
-`Machine Learning`
+<img src="https://img.shields.io/badge/Data%20Engineering-58A6FF?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Backend%20Engineering-6E7681?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MLOps-8957E5?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Machine%20Learning-F7931E?style=for-the-badge" />
 
 <br/><br/>
 
-`Artificial Intelligence`
-&nbsp;&nbsp;
-`Cloud Computing`
-&nbsp;&nbsp;
-`Data Analytics`
-&nbsp;&nbsp;
-`Distributed Systems`
+<img src="https://img.shields.io/badge/Artificial%20Intelligence-238636?style=for-the-badge" />
+<img src="https://img.shields.io/badge/RAG%20Systems-1F6FEB?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Cloud%20Computing-FF9900?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Data%20Analytics-F2C811?style=for-the-badge" />
 
 </div>
 
 ---
 
-<!-- ========================= -->
-<!--         CONNECT           -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                       CONNECT                          -->
+<!-- ====================================================== -->
 
 ## 🤝 Let's Connect
 
@@ -377,23 +375,14 @@ to turn raw data into **reliable, scalable and useful applications**.
 
 I'm interested in opportunities involving
 
-**Software Engineering • Data Engineering • Machine Learning • MLOps**
+### Software Engineering • Data Engineering • Machine Learning • MLOps
 
-<br/><br/>
+<br/>
 
 <a href="YOUR_LINKEDIN_URL">
   <img
     src="https://img.shields.io/badge/LinkedIn-Sachithra%20Oshadha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
     alt="LinkedIn"
-  />
-</a>
-
-&nbsp;
-
-<a href="YOUR_PORTFOLIO_URL">
-  <img
-    src="https://img.shields.io/badge/Portfolio-View%20My%20Work-111111?style=for-the-badge&logo=vercel&logoColor=white"
-    alt="Portfolio"
   />
 </a>
 
